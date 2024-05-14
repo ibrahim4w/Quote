@@ -22,4 +22,7 @@ function quote(){
 
     quoteContent.innerHTML = randomContents.content;
     quoteAuthor.innerHTML = randomContents.author;
+
+    prevRandomContents = randomContents;
+    return randomContents;
 }
